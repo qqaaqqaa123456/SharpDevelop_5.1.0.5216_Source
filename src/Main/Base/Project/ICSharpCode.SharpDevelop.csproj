@@ -891,6 +891,9 @@
     <Compile Include="Src\Project\MSBuildInternals.cs" />
     <Compile Include="Src\Project\Items\ItemType.cs" />
     <EmbeddedResource Include="Resources\DefaultManifest.manifest" />
+    <EmbeddedResource Include="Src\Gui\Dialogs\AsynchronousWaitDialog.resx">
+      <DependentUpon>AsynchronousWaitDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Src\Gui\Dialogs\ExtractInterfaceDialog.resx">
       <DependentUpon>ExtractInterfaceDialog.cs</DependentUpon>
     </EmbeddedResource>
